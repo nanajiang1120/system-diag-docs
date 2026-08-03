@@ -1,0 +1,23 @@
+# 1. 網站基本資訊
+site_name: 系統診斷百科 (Diag Reference)
+site_description: 測試架構與指令對照表
+site_author: 開發團隊
+
+# 2. 佈景主題設定 (這裡使用最受歡迎的 Material 主題)
+theme:
+  name: material
+  palette:
+    # 設定深色模式 (Dark Mode)
+    scheme: slate 
+    primary: blue
+    accent: light blue
+
+# 3. 側邊欄導覽選單 (定義左側 Menu)
+nav:
+  - 🏠 測試架構總覽: index.md
+  - ⚙️ 系統診斷 (System):
+    - CPU 狀態: system/cpu.md
+    - Memory 驗證: system/memory.md
+  - 🔌 通訊協定 (Network):
+    - CAN 匯流排: network/can.md
+    - UDS 診斷服務: network/uds.md
